@@ -1,0 +1,191 @@
+#top
+{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.marge
+{
+    margin: 10px;
+}
+
+#mid
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    position: relative;
+}
+
+.logo
+{
+    width: 300px;
+    height: 100px;
+}
+
+footer
+{
+    position: absolute;
+    width: 100%;
+}
+
+#footer1
+{
+    background-color: rgb(235, 235, 235);
+    border-bottom: #000000 1px, solid;
+}
+
+#footer1 p
+{
+    margin-left: 50px;
+    height: 35px;
+    padding-top: 10px;
+    color: #777777;
+}
+
+#footer2
+{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -19px;
+    border-top: #000000 2px;
+}
+.liens1
+{
+    margin-left: 1px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding-top: 10px;
+
+}
+
+.liens2
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding-top: 10px;
+    
+ 
+}
+
+.liens3
+{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row; 
+  margin-left: 50px;
+  padding-top: 10px;
+
+}
+
+body, html
+{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttons
+{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    
+
+}
+
+.button1
+{
+    border: none;
+    background-color: rgba(243, 243, 243, 0.726);
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    margin-right: 5px;
+
+}
+
+.button2
+{
+    border: none;
+    background-color: rgba(243, 243, 243, 0.726);
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    margin-left: 5px;
+
+}
+
+.buttonconnec
+{
+    border: none;
+    background-color: dodgerblue;
+    color: burlywood;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.marge2
+{
+    margin-left: 10px;
+    color: #777777;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.marge:hover
+{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.marge2:hover
+{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.button1:hover, .button2:hover
+{
+    border:1px solid #cecece;
+}
+
+#searchbar:hover
+{
+    box-shadow: 2px 2px 2px rgb(173, 173, 173);
+}
+
+
+#searchbar
+{
+    background-image: ;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 550px;
+}
+
+.barre
+{
+    display: flex;
+
+}
